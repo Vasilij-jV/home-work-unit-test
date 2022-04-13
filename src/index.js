@@ -7,3 +7,5 @@ export default function vitalStatus(param) {
   }
   return 'critical';
 }
+
+let a = 34;
