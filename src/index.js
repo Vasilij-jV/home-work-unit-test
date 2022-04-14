@@ -7,3 +7,13 @@ export default function vitalStatus(param) {
   }
   return 'critical';
 }
+
+export const obj1 = {
+  name: 'Vasilij',
+  age: '44',
+};
+
+export const obj2 = {
+  name: 'Vasilij',
+  age: '44',
+};
