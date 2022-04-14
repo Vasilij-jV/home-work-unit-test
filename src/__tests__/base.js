@@ -1,4 +1,4 @@
-import vitalStatus, { obj1, obj2 } from '../index';
+import vitalStatus from '../index';
 
 test.each([
   [{ name: 'Маг', health: 90 }, 'health'],
@@ -7,8 +7,4 @@ test.each([
 ])('live indicator', (obj, str) => {
   const result = vitalStatus(obj);
   expect(result).toBe(str);
-});
-
-test('toequal obj', () => {
-  expect(obj1).toEqual(obj2);
 });
